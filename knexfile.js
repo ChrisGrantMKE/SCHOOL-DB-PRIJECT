@@ -19,6 +19,11 @@ module.exports = {
     migrations: {
       directory: path.join(__dirname, "migrations"),
     },
+
+    seeds: {
+      directory: path.join(__dirname, "src", "db", "seeds"),
+    },
+
   },
 };
 
